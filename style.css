@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Oswald&family=Raleway&family=Ubuntu:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body::before{
+    background: url('pexels-alex-green-5699456.jpg') repeat center center/cover;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100vw;
+    height:180vh;
+    z-index: -1;
+    /* opacity:0.6 rgb(169, 164, 164);
+     */
+     opacity:0.59;
+
+
+}
+h1{
+    
+    width: 250px;
+    padding: 10px;
+    /* text-align: center; */
+    /* margin: auto; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size:65erm;
+    text-shadow: 4px 3px 5px rgba(28, 29, 29, 0.69);
+    color:rgb(250, 246, 240)
+    
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:28erm;
+    /* text-shadow: 4px 3px 5px rgba(28, 29, 29, 0.69); */
+    text-shadow: 4px -1px 5px rgba(28, 29, 29, 1);
+    color:rgb(250, 246, 240);
+
+}
+
+/*  */
+
+
+#main{
+   /* border:4px solid red; */
+   width:auto;
+   margin: 160px 30px 30px 40px;
+
+}
+
+.container{
+     /*
+    position: relative; */
+    
+    /* background: green; */
+    /* width:100%;
+    height:auto; */
+
+     display: flex; 
+    
+    
+}
+
+#survey{
+    
+    width: 500px; 
+    height:auto;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 21px;
+    margin: 50px;
+    background: rgb(183, 183, 200);
+    opacity: 0.7;
+}
+
+.form{
+    margin:20px;
+   padding: 0px 56px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgb(39, 41, 43);
+}
+
+ 
+label{
+    margin: 10px 0px 7.5px 35px;
+    
+
+}
+
+.box{
+    padding: 2px 25px;
+    border-radius: 6px;
+    margin: 0px 50px;
+    width: 210px;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+input.check{
+    margin: 8px;
+}
+
+input.tick{
+    margin:8px;
+}
+
+#message{
+    width: 280px;
+    margin: auto;
+    height: 90px;
+    border-radius: 8px;
+    border:none;
+    padding:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2erm;
+
+}
+
+#btn{
+    width: 70px;
+    font-size: 1em;
+    border-radius: 5px;
+    box-shadow: 8px 4px 12px rgba(55, 36, 5, 1);
+    margin: 10px 216px;
+    border-style: none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(139, 94, 62);
+    font-family: 'Ubuntu', sans-serif;
+    padding:5px;
+}
+
+#btn:hover{
+    transform: scale(1.05);
+
+}
